@@ -8,7 +8,7 @@ on:
 
 jobs:
   test-html:
-    runs-on: self-hosted
+    runs-on: [self-hosted, windows]
     steps:
       - name: Récupération du code
         uses: actions/checkout@v3
